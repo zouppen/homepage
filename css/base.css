@@ -73,7 +73,7 @@ dt, dd, .footer {
 
 
 body {
-    background: #fcfcfa;
+    background: url("../images/sdp_ruusukuvio_pieni_beige.png") repeat scroll 0 0 gray;
     margin-bottom: 2em;
     margin-top: 2em;
 }
