@@ -8,34 +8,56 @@ js: index
 <div class="row">
     <div class="span8">
         <div class="wrapper">
-        <h2>Featured Projects</h2>
+        <h2>Ajatuksia</h2>
         <div class="caro" id="projects">
             <div class="prev button"></div>
             <div class="next button"></div>
             <div class="slides">
-                <div title="Ahma">
-                    <h3><a href="/projects/ahma">Ahma</a></h3>
-                    <p>Remote monitoring and control station based on a single-board-computer, and embedded Linux.</p>
+                <div title="Kaupunkirakenne">
+                    <h3><a href="teemat/kaupunkirakenne">Kaupunkirakenne</a></h3>
+                    <p>Jos asuu alle viiden kilometrin päässä
+                    keskustasta ja tarvitsee auton päivittäiseen
+                    liikkumiseen, jokin on mennyt kenties pieleen
+                    kaupunkisuunnittelussa?</p>
                 </div>
-                <div title="EffectServer">
-                    <h3>EffectServer</h3>
-                    <p>UDP packet abstraction for multiple DMX controllers.</p>
+                <div title="Sivistyspalvelut">
+                    <h3><a href="teemat/sivistys">Sivistys</a></h3>
+                    <p>Pitäisikö meidän kenties keskittyä koulutuksen
+                    sisältöön, eikä henkistellä rakennusten
+                    tunnearvoa?</p>
                 </div>
-                <div title="Koodilehto Site">
-                    <h3><a href="/projects/koodilehto">Koodilehto Site</a></h3>
-                    <p>Building this site was quite a project of its own. Instead of building everything from scratch, we ended up using <a href="http://pages.github.com/">GitHub Pages</a>, <a href="https://github.com/mojombo/jekyll">Jekyll</a>, <a href="http://twitter.github.com/bootstrap/">Bootstrap</a>, <a href="http://jquery.com/">jQuery</a> and <a href="http://requirejs.org/">RequireJS</a>. In addition some custom technology, <a href="http://bebraw.github.com/caro.js/">this carousel</a> included, was developed.</p>
+                <div title="Kulttuuripalvelut">
+                    <h3><a href="teemat/kulttuuri">Kulttuuri</a></h3>
+                    <p>Jokaisella kaupunkilaisella tulee olla
+                    mahdollisuus nauttia kulttuurista. Ja tuottaa
+                    sitä. Koskaan ei ihmisellä voi olla liian kiire
+                    kulttuurille.</p>
                 </div>
             </div>
             <div class="carouselNavi"></div>
         </div>
 
-        <h2>About</h2>
-        <p>Koodilehto is a cooperative of software professionals located in the Jyväskylä region. We share a common background at the academia. Koodilehto provides the infrastructure for effective collaboration and software development work.</p>
-        <p>Some of us operate only during spare time while some focus primarily on customer projects. Our greatest strength lies within varied technical expertise.</p>
-        <p>We develop and demonstrate this expertise actively by authoring, maintaining and contributing to various open source projects. In addition, many of our members have their own personal software projects out there.</p>
+        <h2>Tietoa minusta</h2>
 
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a>, Phone: {{ site.phone }}{% comment %}, <a id="contact" href="contact">Contact Form</a>{% endcomment %}</p>
+        <p>Olen Joel Lehtonen, 29-vuotias filosofian maisteri ja
+        yhteiskunta-aktiivi. Olen ehdolla Jyväskylän
+        kaupunginvaltuuston jäseneksi.</p>
+
+        <p>Olen ehdolla, koska valtuustoon tarvitaan monipuolisesti
+        yhteiskunnallisista asioista kiinnostuneita
+        ihmisiä. Kunnallinen päätöksenteko ei saa olla vain
+        <em>ammattipoliitikkojen</em> temmellyskenttää.</p>
+
+	<p>Vaikka taloudellinen tilanne onkin Jyväskylän kaupungilla
+	aika tiukka, ei se tarkoita, että olisi tehtävä vain
+	välttämättömiä asioita. Erityisesti ongelmallisina aikoina
+	tarvitaan ihmisiä, jotka tuovat keskusteluun vaihtoehtoja.</p>
+
+        <p>Jos oikeasti haluat tietää, mitä ajattelen, käy
+        tutustumassa <a href="teemat">vaaliteemoihini</a>.</p>
+
+        <h2>Yhteystiedot</h2>
+        <p>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a>, Puhelinnumero: {{ site.phone }}{% comment %}, <a id="contact" href="contact">Contact Form</a>{% endcomment %}</p>
 
         {% comment %}
         <div id="contactForm">
