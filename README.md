@@ -9,3 +9,6 @@ Invalid gemspec in [/var/lib/gems/1.8/specifications/directory_watcher-1.4.1.gem
 
 You need to change the date line in /var/lib/gems/1.8/specifications/directory_watcher-1.4.1.gemspec from "s.date = %q{2011-08-30 00:00:00.000000000Z}" to "s.date = %q{2011-08-30}". 
 
+## Other
+
+Borrowed Rakefile from [jekyll-bootstrap](https://github.com/plusjade/jekyll-bootstrap). [Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html).
