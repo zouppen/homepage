@@ -137,7 +137,7 @@ body > .container {
     width: 100%;
     padding: 0.5em 0em 0.5em 0em;
     margin: 0;
-    background: #111;
+    background: #d1d1d1;
     list-style: none;
     font-size: medium;
 }
@@ -155,23 +155,17 @@ body > .container {
 }
 
 .navi li {
-    background: #111;
+    background: #d1d1d1;
     padding: 0em 2em 0em 2em;
     display: inline;
-    border-right: 1px solid #CCC;
 }
-
-.subnavi li {
-    border-right: 1px dotted #CCC;
-}
-
 
 .navi li:last-child {
     border-right: none;
 }
 
 .navi li a {
-    color: #ccc;
+    color: black;
 }
 
 footer .contact {
