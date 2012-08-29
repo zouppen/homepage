@@ -36,7 +36,7 @@ dt {
     font-weight: bold;
 }
 
-dt, dd, footer {
+dt, dd, .footer {
     font-size: 13px;
     line-height: 18px;
 }
@@ -66,15 +66,11 @@ dt, dd, footer {
     text-align: center;
 }
 
-footer h3 {
+.footer h3 {
     font-size: 1em;
     color: #ccc;
 }
 
-footer .logo {
-    text-align: center;
-    padding: 0.5em;
-}
 
 body {
     background: #fcfcfa;
@@ -129,17 +125,12 @@ body > .container {
     padding-top: 0.5em;
 }
 
-footer {
-    background: #333;
-    margin-top: 1em;
-    padding: 1em;
-    -moz-border-radius: 0 0 5px 5px;
-    border-radius: 0 0 5px 5px;
-    color: #ccc;
+.footer .wrapper {
+    background: #fbfbf8;
 }
 
-#attributions {
-    margin-top: 1em;
+.footer .contact {
+    float: right;
 }
 
 .navi {
