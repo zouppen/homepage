@@ -35,9 +35,10 @@
             </div>
 
             <ul class="navi">
-                <li {% if page.url == '/index.html' %}class="selected"{% endif %}><a href="/">Home</a></li>
-                <li {% if page.url == '/projects/index.html' %}class="selected"{% endif %}><a href="/projects/">Projects</a></li>
-                <li {% if page.url == '/members/index.html' %}class="selected"{% endif %}><a href="/members/">Members</a></li>
+                <li {% if page.url == '/index.html' %}class="selected"{% endif %}><a href="/">Etusivu</a></li>
+                <li {% if page.url == '/blogi/index.html' %}class="selected"{% endif %}><a href="/blogi/">Blogi</a></li>
+                <li {% if page.url == '/vaaliteemat/index.html' %}class="selected"{% endif %}><a href="/vaaliteemat/">Vaaliteemat</a></li>
+                <li {% if page.url == '/tukiryhma/index.html' %}class="selected"{% endif %}><a href="/tukiryhma">Tukiryhmä</a></li>
             </ul>
 
             {{ page.extraNavi }}
