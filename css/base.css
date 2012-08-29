@@ -1,16 +1,30 @@
+/* Fonts used in SDP.fi. Licensed is under fonts/ directory */
+@font-face {
+    font-family: "TitilliumText25L250wt";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/titilliumtext25l250-webfont.eot") format("embedded-opentype"), url("../fonts/titilliumtext25l250-webfont.woff") format("woff"), url("../fonts/titilliumtext25l250-webfont.ttf") format("truetype"), url("../fonts/titilliumtext25l250-webfont.svg#TitilliumText25L250wt") format("svg");
+}
+@font-face {
+    font-family: "TitilliumText25L400wt";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/titilliumtext25l400-webfont.eot") format("embedded-opentype"), url("../fonts/titilliumtext25l400-webfont.woff") format("woff"), url("../fonts/titilliumtext25l400-webfont.ttf") format("truetype"), url("../fonts/titilliumtext25l400-webfont.svg#TitilliumText25L400wt") format("svg");
+}
+@font-face {
+    font-family: "TitilliumText25L800wt";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/titilliumtext25l800-webfont.eot") format("embedded-opentype"), url("../fonts/titilliumtext25l800-webfont.woff") format("woff"), url("../fonts/titilliumtext25l800-webfont.ttf") format("truetype"), url("../fonts/titilliumtext25l800-webfont.svg#TitilliumText25L800wt") format("svg");
+}
+
 a {
     color: #08c;
     text-decoration: none;
 }
 
-/*
-* {
-    font-family: Verdana;
-}
-*/
-
 h1, h2 {
-    font-family: 'Headland One', serif;
+    font-family: "TitilliumText25L250wt",Verdana,Geneva,sans-serif;
     font-weight: 400;
 }
 
