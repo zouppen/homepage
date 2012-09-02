@@ -7,7 +7,6 @@ js: blogi
 
 <div class="row">
     <div class="span8">
-        <div class="wrapper">
             <h2>Blogi</h2>
 
             {% for post in site.posts offset: 0 limit: 10 %}
@@ -16,11 +15,9 @@ js: blogi
                 {{ post.content }}
                 <hr />
             {% endfor %}
-        </div>
     </div>
 
     <div class="span4">
-        <div class="wrapper">
             <h2>Arkisto</h2>
             <ul>
                 {% for post in site.posts %}
@@ -30,7 +27,6 @@ js: blogi
                     </li>
                 {% endfor %}
             </ul>
-        </div>
     </div>
 </div>
 
